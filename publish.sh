@@ -39,7 +39,7 @@ fi
 
 # Publish to npm
 echo "Publishing to npm..."
-npm publish --access public --dry-run
+npm publish --access public
 
 # Tag the release in Git
 echo "Tagging the release in Git..."
