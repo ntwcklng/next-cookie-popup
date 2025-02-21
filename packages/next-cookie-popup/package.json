@@ -1,7 +1,7 @@
 {
 	"name": "next-cookie-popup",
-	"version": "1.0.1",
-	"description": "",
+	"version": "1.0.2",
+	"description": "Fully customizable cookie popup for Next.js",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
@@ -9,13 +9,25 @@
 		"build": "tsup src/index.ts --dts --format esm,cjs",
 		"dev": "npm run build -- --watch"
 	},
-	"keywords": [],
+	"keywords": [
+		"next",
+		"cookie",
+		"popup",
+		"consent",
+		"privacy",
+		"cookie consent",
+		"cookie popup"
+	],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"type": "module",
 	"peerDependencies": {
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ntwcklng/next-cookie-popup"
 	},
 	"devDependencies": {
 		"@types/react": "^19.0.0",
