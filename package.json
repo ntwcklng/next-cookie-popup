@@ -1,0 +1,11 @@
+{
+	"name": "next-cookie-popup-monorepo",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"build": "npm run build --workspace=next-cookie-popup",
+		"dev": "npm run dev --workspace=example-next"
+	}
+}
